@@ -7,11 +7,11 @@ def valid_move?(board, index)
   #     return true
   # elsif position_taken?(board, index) >= 10
   #   return false
-  # 
+  #
   # else position_taken?(board, index) == true
   #   return false
   !position_taken(board, index) && index.between?(0, 8)
-  
+
 
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
