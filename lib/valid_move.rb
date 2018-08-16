@@ -12,7 +12,7 @@ def valid_move?(board, index)
   # else position_taken?(board, index) == true
   #   return false
   !position_taken?(board, index) && index.between?(0, 8)
-
+binding.pry
 
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
