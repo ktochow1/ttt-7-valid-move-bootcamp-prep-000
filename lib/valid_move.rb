@@ -1,5 +1,6 @@
 # code your #valid_move? method here
 # code your #valid_move? method here
+require "pry"
 def valid_move?(board, index)
   # if position_taken?(board, index) == false
     # return true
